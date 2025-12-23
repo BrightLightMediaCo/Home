@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bright Light Media Co. | Portfolio</title>
+  <meta name="description" content="Bright Light Media Co. — graphic design portfolio and visual storytelling." />
+  <style>
+    :root { --bg:#0b1020; --card:#111a33; --text:#e9ecf7; --muted:#aab3d6; --accent:#c9a14d; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:linear-gradient(180deg,#070a14,var(--bg));color:var(--text);}
+    a{color:inherit} .wrap{max-width:1050px;margin:0 auto;padding:28px;}
+    header{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 0;}
+    .brand{display:flex;flex-direction:column;line-height:1.1}
+    .brand b{font-size:20px;letter-spacing:.2px} .brand span{color:var(--muted);font-size:13px}
+    .btn{display:inline-flex;align-items:center;gap:10px;background:var(--accent);color:#1b1b1b;padding:10px 14px;border-radius:999px;text-decoration:none;font-weight:700}
+    .hero{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;align-items:stretch;margin:10px 0 22px;}
+    .card{background:rgba(17,26,51,.85);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:18px;backdrop-filter:blur(6px);}
+    h1{margin:0 0 8px;font-size:36px} p{margin:0;color:var(--muted);line-height:1.55}
+    .tags{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px}
+    .tag{border:1px solid rgba(255,255,255,.12);border-radius:999px;padding:6px 10px;font-size:12px;color:var(--text);opacity:.95}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:14px 0 6px;}
+    .tile{padding:0;overflow:hidden}
+    .thumb{aspect-ratio:4/3;background:linear-gradient(135deg,rgba(201,161,77,.22),rgba(255,255,255,.06));display:flex;align-items:center;justify-content:center;color:rgba(233,236,247,.75);font-weight:700}
+    .tile .meta{padding:12px 12px 14px}
+    .tile b{display:block;margin-bottom:6px}
+    .tile small{color:var(--muted)}
+    .sectionTitle{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-top:26px}
+    .sectionTitle h2{margin:0;font-size:18px}
+    .two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
+    footer{padding:26px 0;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:560px){.grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <b>Bright Light Media Co.</b>
+        <span>Graphic Design • Branding • Social Media Visuals</span>
+      </div>
+      <a class="btn" href="#contact">Contact</a>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <h1>Design that tells a story.</h1>
+        <p>
+          I create polished, on-brand graphics for web, print, and social —
+          from campaign creative to event branding and photography-led visuals.
+        </p>
+        <div class="tags">
+          <div class="tag">Brand Identity</div>
+          <div class="tag">Social Media Graphics</div>
+          <div class="tag">Print + Flyers</div>
+          <div class="tag">Event Branding</div>
+          <div class="tag">Photography</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <b style="display:block;margin-bottom:8px;">Quick Links</b>
+        <p style="margin-bottom:12px;">Add your best work and link out to full case studies.</p>
+        <p>
+          <a href="#" aria-label="Instagram">Instagram</a> ·
+          <a href="#" aria-label="Behance">Behance</a> ·
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+
+    <div class="sectionTitle">
+      <h2 id="work">Featured Work</h2>
+      <span style="color:var(--muted);font-size:13px;">(Replace tiles with your projects)</span>
+    </div>
+
+    <section class="grid">
+      <article class="card tile">
+        <div class="thumb">Project Image</div>
+        <div class="meta">
+          <b>Brand + Logo Refresh</b>
+          <small>Identity • Color • Typography</small>
+        </div>
+      </article>
+      <article class="card tile">
+        <div class="thumb">Project Image</div>
+        <div class="meta">
+          <b>Enrollment Campaign</b>
+          <small>Ads • Social • Print</small>
+        </div>
+      </article>
+      <article class="card tile">
+        <div class="thumb">Project Image</div>
+        <div class="meta">
+          <b>Event Branding</b>
+          <small>Signage • Programs • Photos</small>
+        </div>
+      </article>
+      <article class="card tile">
+        <div class="thumb">Project Image</div>
+        <div class="meta">
+          <b>Yearbook Design</b>
+          <small>Layout • Editing • Production</small>
+        </div>
+      </article>
+      <article class="card tile">
+        <div class="thumb">Project Image</div>
+        <div class="meta">
+          <b>Social Media Templates</b>
+          <small>Canva • Adobe • Systems</small>
+        </div>
+      </article>
+      <article class="card tile">
+        <div class="thumb">Project Image</div>
+        <div class="meta">
+          <b>Photography Showcase</b>
+          <small>Portraits • Events • Editing</small>
+        </div>
+      </article>
+    </section>
+
+    <div class="sectionTitle"><h2 id="about">About</h2></div>
+    <section class="two">
+      <div class="card">
+        <p><b>Bright Light Media Co.</b> is a creative studio focused on clear, confident branding and scroll-stopping visuals.</p>
+        <p style="margin-top:10px;">Tools: Adobe Creative Cloud (Photoshop, Illustrator, InDesign), Canva, Lightroom, Premiere Pro.</p>
+      </div>
+      <div class="card">
+        <p><b>Services</b></p>
+        <p style="margin-top:8px;">• Brand identity + guidelines<br/>• Social media graphics + templates<br/>• Flyers, banners, programs<br/>• Photo editing + content packages</p>
+      </div>
+    </section>
+
+    <div class="sectionTitle"><h2 id="contact">Contact</h2></div>
+    <section class="card">
+      <p>Ready to build something bright? Email: <a href="mailto:hello@brightlightmediaco.com">hello@brightlightmediaco.com</a></p>
+      <p style="margin-top:8px;color:var(--muted);font-size:13px;">(Swap this email with yours — or add a form via your host.)</p>
+    </section>
+
+    <footer>© <span id="y"></span> Bright Light Media Co.</footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
